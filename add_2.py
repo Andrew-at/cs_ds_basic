@@ -11,5 +11,3 @@ num1 = add_up_to_2(100000000)
 
 print(num1)
 print(elapsed_time / 1000)
-#1
-#2
