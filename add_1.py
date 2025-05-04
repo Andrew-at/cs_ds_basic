@@ -9,7 +9,7 @@ def add_up_to(num):
     for i in range(1, num + 1):
         total += i
     return total
-#
+#^ 3n + 2 operations, 1 assignment, n addition, n assignment, n addition
 #counting milliseconds
 start_time = time.perf_counter()
 end_time = time.perf_counter()

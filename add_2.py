@@ -4,8 +4,8 @@ import time
 # from 1 up to and including 'num'
 def add_up_to_2(num):
     return num * (num +1) /2
-#^ 3 operations, multiplication, addition, division
-
+#^ 2n + 1 operations, n multiplication, n addition, 1 division
+# O(1) complexity (constant operations), always 3
 #counting milliseconds
 start_time = time.perf_counter()
 end_time = time.perf_counter()
