@@ -19,4 +19,3 @@ num1 = add_up_to(5)
 
 print(num1)
 print(elapsed_time / 1000)
-
