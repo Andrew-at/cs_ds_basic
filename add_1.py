@@ -8,9 +8,6 @@ def add_up_to(num):
         total += i
     return total
 
-def add_up_to_2(num):
-    return num * (num +1) /2
-
 start_time = time.perf_counter()
 end_time = time.perf_counter()
 elapsed_time = (end_time - start_time) * 1000.0
