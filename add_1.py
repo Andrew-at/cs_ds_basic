@@ -1,7 +1,7 @@
 import time
 
-#adds each number incrementally
-#prints total
+#a function that calculates the sum of all numbers
+# from 1 up to and including 'num'
 def add_up_to(num):
 
     total = 0
